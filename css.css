@@ -1,46 +1,35 @@
-/*CSS = cascade style sheet*/
-/**/
-
-/*ejemplo*/
-
-/*<h3 style="color:darkmagenta";>, inline en html*/
-/*
-<style>
+h1{
+    font-size: 2em;
+}
 h2{
-    color:blueviolet;
-    size: 2rem;
+    font-size: 1.5em;
 }
-</style>
-*/
-/* selector{
-    clase=valor;
-}*/
-
-h1{
-    color: darkolivegreen;
+h3{
+    font-size: 1em;
+}
+p{
+    font-size: 0.75em;
 }
 h1{
-    color:darkviolet;
+    color: rgb(147, 40, 71);
 }
-/*la hoja de estilos en cascada se aplica linea a linea entonces lo ultimo que aplicamos es lo que va a quedar aparte tengamos en cuenta que la asignacion de estilos "inline" tiene mayor jerarquia que el css aplicado en forma externa.*/
-/* selectores */
-/*podemos elegir multiples selectores usando ","*/
-
+h3{
+    color:rgb(75, 0, 22);
+}
 h2,h3{
-    color:blueviolet;
+    color:rgb(0, 57, 34);
 }
 li{
-    color: rgb(0, 0, 255);
+    color: rgb(39, 48, 0);
 }
-
-/* podemos usar el selector de clasa para seleccionar varias etiquetas y aplicarles los estilos correspondientes, por eso debemos usar, clase como selector donde clase es el nombre de la clase elegida, y luego en el html debemos usar el atributo class="nombreClase"*/
+p{
+    color:rgb(0, 0, 97)
+}
 
 .listasSinFormato{
-    color:cornflowerblue;
+    color:rgb(19, 0, 5);
 }
 
-/*podemos usar un selector de combinacion descendente usando espacio como separador*/
 .listasSinFormato li{
     list-style: none;
 }
-
