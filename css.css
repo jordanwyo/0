@@ -1,8 +1,8 @@
 h1{
-    font-size: 2em;
+    font-size: 2px;
 }
 h2{
-    font-size: 1.5em;
+    font-size: 100%;
 }
 h3{
     font-size: 1em;
@@ -22,8 +22,53 @@ h2,h3{
 li{
     color: rgb(39, 48, 0);
 }
-p{
+p + b{
     color:rgb(0, 0, 97)
+}
+ol li, ul{
+    color:rgb(0, 0, 97)
+}
+a{
+    color:rgb(0, 0, 97)
+}
+#KratosTittle{
+    color:rgb(0, 0, 97)
+}
+.krateres{
+    width: 30em;
+    height: 20em;
+}
+.algo{
+    margin: ;
+    padding: ;
+}
+posicion absoluta{
+    position: absolute;
+    top: ;
+    left: ;
+}
+relativa{
+    position: relative;
+    top: ;
+    left: ;
+}
+fijada{
+    position: fixed;
+    top: ;
+    left: ;
+}
+div > span{
+    color: #239381 
+}
+h1,h3{
+    background-color: blueviolet
+
+}
+
+body{
+    background-image; url()
+    background-size;
+    background-position;
 }
 
 .listasSinFormato{
