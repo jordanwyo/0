@@ -1,80 +1,74 @@
+*{
+    margin: 220;
+    padding: 100;
+}
 h1{
-    font-size: 2px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    position: fixed;
 }
 h2{
     font-size: 100%;
+    color:rgb(163, 80, 105);
 }
 h3{
     font-size: 1em;
+    color:rgb(148, 47, 47);
+    width:150px;
+}
+h4{
+    font-size: 1em;
+    color:rgb(148, 47, 47);
+    background-color: rgba(216, 140, 140, 0.788);
+    width:1000px;
+}
+h1,h3{
+    background-color: rgba(216, 140, 140, 0.788)
+
 }
 p{
     font-size: 0.75em;
 }
-h1{
-    color: rgb(147, 40, 71);
-}
-h3{
-    color:rgb(75, 0, 22);
-}
-h2,h3{
-    color:rgb(0, 57, 34);
-}
 li{
-    color: rgb(39, 48, 0);
+    color: rgb(115, 126, 65);
 }
 p + b{
-    color:rgb(0, 0, 97)
+    color:rgb(26, 136, 92)
 }
-ol li, ul{
-    color:rgb(0, 0, 97)
+ol li,ul{
+    color:rgb(163, 80, 105)
 }
 a{
-    color:rgb(0, 0, 97)
+    color:rgb(87, 87, 138)
 }
-#KratosTittle{
-    color:rgb(0, 0, 97)
+#Fallecimiento{
+    color:rgba(255, 255, 255, 0.63)
+}
+#article{
+    position: absolute;
+    top: 0em;
+    left: 35em;
+}
+.krateres{
+    position: relative;
+    top: 0em;
+    left: 45em;
 }
 .krateres{
     width: 30em;
     height: 20em;
 }
-.algo{
-    margin: ;
-    padding: ;
-}
-posicion absoluta{
-    position: absolute;
-    top: ;
-    left: ;
-}
-relativa{
-    position: relative;
-    top: ;
-    left: ;
-}
-fijada{
-    position: fixed;
-    top: ;
-    left: ;
-}
 div > span{
     color: #239381 
 }
-h1,h3{
-    background-color: blueviolet
-
-}
-
 body{
-    background-image; url()
+    background-image: url(https://st3.depositphotos.com/1032577/32494/i/450/depositphotos_324945486-stock-photo-clear-red-texture-background.jpg);
     background-size;
     background-position;
 }
-
 .listasSinFormato{
     color:rgb(19, 0, 5);
 }
-
 .listasSinFormato li{
     list-style: none;
 }
