@@ -1,47 +1,19 @@
- body {
-    display: grid;
-    grid-template-columns: [first] 30% [medio] 30% [final] 30%;
-    grid-template-rows: [fila1] 100px [fila2] auto [filafinal] 200px;
-    grid-template-areas: 
-    "logo navprincipal navprincipal"
-    "cabecera cabecera cabecera"
-    "principal principal secundario"
-    "piedepagina" "piedepagina" "piedepagina";
-
- }
- .logo {
-    background-color: blueviolet;
-    grid-area: logo;
- }
- .navprincipal {
-    background-color: aqua;
-    grid-area: navprincipal;
- }
- .cabecera {
+body {
     background-color: black;
     color: antiquewhite;
-    grid-area: cabecera;
- }
- .section1 {
-    background-color: red;
- }
- .articulo1 {
-    background-color: aqua;
- }
-.articulo2{
-    background-color: black;
- }
- .section{
-    background-color: antiquewhite;
- }
- .secundario {
-    background-color: blueviolet;
-    grid-area: secundario;
- }
- .piedepagina {
-    background-color: brown;
-    grid-area: piedepagina;
- }
- .principal {
-    background-color: blue;
- }
+}
+.header-container {
+    display: grid;
+    grid-template-rows: [row1-start] [row2-start row2-end] [row3-start]
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+
+}
+placeholder {
+
+}
